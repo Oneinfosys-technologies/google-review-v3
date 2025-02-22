@@ -15,7 +15,7 @@ function App() {
     if (newRating >= 4) {
       const businessPlaceId = 'YOUR_GOOGLE_PLACE_ID';
       const templateMessage = encodeURIComponent('I had a great experience!');
-      window.location.href = `https://search.google.com/local/writereview?placeid=${businessPlaceId}&review=${templateMessage}`;
+      window.location.href = `https://search.google.com/local/writereview?placeid=ChIJHUXkVb0GDTkRg6pg71KWaYw`;
       return;
     }
   };
