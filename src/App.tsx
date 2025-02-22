@@ -13,7 +13,7 @@ function App() {
     setRating(newRating);
     
     if (newRating >= 4) {
-      const businessPlaceId = 'YOUR_GOOGLE_PLACE_ID';
+      const businessPlaceId = 'ChIJHUXkVb0GDTkRg6pg71KWaYwD';
       const templateMessage = encodeURIComponent('I had a great experience!');
       window.location.href = `https://search.google.com/local/writereview?placeid=ChIJHUXkVb0GDTkRg6pg71KWaYw`;
       return;
