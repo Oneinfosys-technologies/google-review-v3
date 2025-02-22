@@ -136,7 +136,7 @@ function Footer() {
   
   return (
     <footer className="mt-8 text-center text-gray-500 text-sm">
-      <p>© {currentYear} Your Company Name. All rights reserved.</p>
+      <p>© {currentYear} Oneinfosys Technologies LLP Ltd. All rights reserved.</p>
       <p className="mt-1">Crafted with care for our valued customers</p>
     </footer>
   );
